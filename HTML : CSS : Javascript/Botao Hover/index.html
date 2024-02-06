@@ -27,25 +27,20 @@
         Interaja...
     </div>
 
+    <footer>
+        <p>&copy; HugoDeus</p>
+    </footer>
+
     <script>
-        /*       deixando so o <div id="area"> para html mais limpo
         var a = document.getElementById('area')
-        a.addEventListener('click', clicar)
-        a.addEventListener('mouseneter', entrar)
-        a.addEventListener('mouseout', sair)
-        */
-        var a = document.getElementById('area')  //nao e o mais indicado colocar este codigo fora das function por causa dos escupulo. o ideal e colocar este codigo dentro de cada uma das function
         function clicar() {
-        //var a = document.getElementById('area')
         a.innerText='Clicou! '
         a.style.background = 'red'
         }
         function entrar() {
-        //var a = document.getElementById('area')
         a.innerText='Entrou! '
         }
         function sair() {
-        //var a = document.getElementById('area')
         a.innerText='Saiu! '
         a.style.background = 'green'
         }

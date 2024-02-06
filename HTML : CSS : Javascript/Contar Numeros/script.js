@@ -6,7 +6,6 @@ let res = document.getElementById('res')
 
 if (ini.value.length == 0 || fim.value.length == 0 || pas.value.length == 0) {
     res.innerHTML = 'Impossivel contar...'
-    //alert('[ERRO]Verifique os dados')
 } else {
     res.innerHTML = 'Contando: <br>'
     let i = Number(ini.value)
