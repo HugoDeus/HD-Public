@@ -1,0 +1,40 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.361);
+}
+#numer{
+    margin-left: 5px;
+}
+#lista{
+    width: 240px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.button{
+    color: rgb(50, 73, 205);
+    background-color: rgb(167, 195, 195);
+    border-radius: 5px;
+    border: 1px solid rgb(205, 234, 234);
+    box-shadow: 1px 1px 3px ;
+}
+.button:hover{
+    scale: 105%;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 255, 255);
+}
+footer{
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.btn{
+    background-color: rgb(157, 196, 231);
+}
+.btn:hover{
+    cursor: pointer;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+}
+section{
+    margin-left: 20px;
+}
+select{
+    border: none;
+    outline: none;
+    height: 190px;
+    margin-top: 20px;
+}
+select option{
+    background: rgba(160, 206, 206, 0.382);
+    font-weight: bolder;
+}
+.sel{
+    display: flex;
+    width: 330px;
+}
+option:nth-child(even){
+    background-color: rgba(160, 206, 206, 0.382);
+}
+option:nth-child(odd){
+    background-color: rgba(160, 206, 206, 0.809);
+}

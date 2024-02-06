@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area{
+            font: normal 20pt Arial;
+            background-color: rgb(42, 139, 42);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 50%;
+            position: relative;
+            left: 50px;
+            top:50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        Interaja...
+    </div>
+
+    <script>
+        /*       deixando so o <div id="area"> para html mais limpo
+        var a = document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseneter', entrar)
+        a.addEventListener('mouseout', sair)
+        */
+        var a = document.getElementById('area')  //nao e o mais indicado colocar este codigo fora das function por causa dos escupulo. o ideal e colocar este codigo dentro de cada uma das function
+        function clicar() {
+        //var a = document.getElementById('area')
+        a.innerText='Clicou! '
+        a.style.background = 'red'
+        }
+        function entrar() {
+        //var a = document.getElementById('area')
+        a.innerText='Entrou! '
+        }
+        function sair() {
+        //var a = document.getElementById('area')
+        a.innerText='Saiu! '
+        a.style.background = 'green'
+        }
+    </script>
+</body>
+</html>
