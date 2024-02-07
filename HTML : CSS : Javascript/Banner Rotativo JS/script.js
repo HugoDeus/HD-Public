@@ -1,3 +1,4 @@
+/** Banner */
 let fotos = ['banner1.png', 'banner2.png', 'banner3.png']
 
 function bannerswitch(ft){
@@ -16,6 +17,8 @@ let contar = setInterval(function relogio(){
     }
     bannerswitch(bannertroca)
 }, 4000)
+
+/** Botoes iniciar/parar Banner */
 
 document.getElementById('btiniciar').addEventListener('click', function(){
     contar = setInterval(function relogio(){
