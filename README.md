@@ -23,5 +23,6 @@ Este é um repositório público onde compartilho alguns dos meus projetos e có
 Se você estiver interessado em colaborar em projetos ou tiver alguma pergunta, entre em contato:
 
 - **E-mail**: hugodsdeus@gmail.com
-- **LinkedIn**: <a href="https://www.linkedin.com/in/hugo-miguel-deus-70571952?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJf30QsUFTLabrOQEAJ%2FW5Q%3D%3D" target="_blank">Hugo Miguel Deus</a>
+- **LinkedIn**: [Hugo Miguel Deus](https://www.linkedin.com/in/hugo-miguel-deus-70571952?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJf30QsUFTLabrOQEAJ%2FW5Q%3D%3D)
+
 
