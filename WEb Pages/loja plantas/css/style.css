@@ -1,0 +1,126 @@
+html,
+body{
+    height: 100%;
+    background: rgb(73,98,73);
+    background: linear-gradient(90deg, rgb(101, 144, 101) 0%, rgba(107,161,107,1) 46%, rgb(94, 195, 94) 100%);
+    color: white;
+}
+.bg-nav{
+    background-color: rgb(210, 201, 189);
+}
+.mundo{
+    color: rgb(73,98,73);
+}
+.act{
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-weight: 600;
+}
+.imgart{
+    width: 100%;
+    opacity: 45%;
+    max-height: 200px;
+}
+article {
+    margin-bottom: 70px;
+}
+  
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}  
+.inst-icon{
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.face-icon{
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #3b5998, #2672ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.twet-icon{
+    font-size: 2rem;
+    color: #3297d6;
+    -webkit-background-clip: text;
+}
+.about{
+    position: relative;
+    margin: 60px 0;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+}
+.about-text{
+    background-color: #00000091;
+}
+.img-cat{
+    max-width: 150px;
+    max-height: 150px;
+    margin: 20px auto;
+}
+.img-cat:hover{
+    scale: 110%;
+    rotate: 5deg;
+    transition: 400ms;
+}
+.icone{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    right: 40px;
+    bottom: 20px;
+}
+.btnh{
+    background: #7dbe82;
+}
+h6{
+    text-shadow: 1px 1px #000;
+}
+.sendtxt{
+    background: #0a4a5d;
+}
+.info {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.info.show {
+    display: table;
+}
+
+.info-txt {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #c40505;
+    color: white;
+    border: none;
+}
