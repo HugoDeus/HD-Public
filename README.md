@@ -4,9 +4,9 @@ Este é um repositório público onde compartilho alguns dos meus projetos e có
 
 ## Projetos
 
-- [Projecto1] Loja Plantas: Modelo Web page Simples
-- [Projeto 2] Livraria: Livraria on-line para compra de Livros
-- [Projeto 3] Barbearia: Web Page de uma Barbearia local
+- [Projeto1] Loja Plantas: Uma página web simples para uma loja de plantas
+- [Projeto 2] Livraria: Uma aplicação web para compra de livros online, construída com PHP e MySQL para gerenciamento de dados.
+- [Projeto 3] Barbearia: Um website para uma barbearia local, com informações sobre serviços oferecidos e contato.
 
 ## Habilidades
 
@@ -19,3 +19,9 @@ Este é um repositório público onde compartilho alguns dos meus projetos e có
 - MySql
 
 
+## Contato
+
+Se você estiver interessado em colaborar em projetos ou tiver alguma pergunta, entre em contato:
+
+- **E-mail**: hugodsdeus@gmail.com
+- **LinkedIn**: [Perfil LinkedIn](www.linkedin.com/in/hugo-miguel-deus-70571952)
