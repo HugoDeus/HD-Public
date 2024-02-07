@@ -4,7 +4,7 @@ Este é um repositório público onde compartilho alguns dos meus projetos e có
 
 ## Projetos
 
-- [Projeto1](WEb Pages/loja plantas) Loja Plantas: Uma página web simples para uma loja de plantas
+- [Projeto1](https://github.com/HugoDeus/HD-Public/tree/main/WEb%20Pages/loja%20plantas) Loja Plantas: Uma página web simples para uma loja de plantas
 - [Projeto 2] Livraria: Uma aplicação web para compra de livros online, construída com PHP e MySQL para gerenciamento de dados.
 - [Projeto 3] Barbearia: Um website para uma barbearia local, com informações sobre serviços oferecidos e contato.
 
