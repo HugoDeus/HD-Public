@@ -4,8 +4,9 @@ Este é um repositório público onde compartilho alguns dos meus projetos e có
 
 ## Projetos
 
-- [Projeto 1] Livraria: Livraria on-line para compra de Livros
-- [Projeto 2] Barbearia: Web Page de uma Barbearia local
+- [Projecto1] Loja Plantas: Modelo Web page Simples
+- [Projeto 2] Livraria: Livraria on-line para compra de Livros
+- [Projeto 3] Barbearia: Web Page de uma Barbearia local
 
 ## Habilidades
 
