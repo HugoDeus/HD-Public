@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'Skranji', cursive;
+    font-family: 'Open Sans', sans-serif;
+    src: url(https://fonts.google.com/);
+}
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes pulse{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+@keyframes font-ship {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.blinking {
+    animation: blink 1s infinite;
+}
+  
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Open Sans";
+    background-image: url('../../images/backgroundimage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    flex: 1;
+}
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.active{
+    font-weight: bolder;
+    background-color: rgb(230,234,226);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(230,234,226);
+    color: rgb(25, 135, 83) !important;
+}
+.activeadmin{
+    font-weight: bolder;
+    background-color: #F8F9FA !important;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+.nav-admin{
+    color: rgb(249, 247, 205);
+}
+.nav-admin:hover{
+    color: rgb(249, 247, 205);
+    font-weight: bolder;
+    animation: pulse .5s infinite alternate;
+}
+.welcome{
+    font-size: clamp(10px, 2vw, 18px);
+}
+.reduce{
+    font-size: clamp(10px, 2vw, 18px);
+}
+.searchbar{
+    background-color: rgb(195, 198, 191);
+}
+.btncat{
+    text-align: start;
+}
+.bgmenu{
+    display: block;
+}
+.btncat:hover{
+    background-color: rgb(150, 160, 138);
+}
+.text-user{
+    color: rgb(20, 116, 167);
+    font-weight: 600;
+}
+.usernametx{
+    color: rgb(20, 116, 167);
+    font-weight: bold;
+    font-weight: 110%;
+}
+.bgspace{
+    background: rgb(230,234,226);
+    background: linear-gradient(180deg, rgb(230,234,226,1) 0%, rgb(218, 230, 204) 50%, rgba(230,234,226,1) 100%);
+}
+.font-ship {
+    font-family: 'Skranji', cursive;
+    background: linear-gradient(to bottom, #ffcc00, #ff6600, #ff3300, #ff0000, #cc0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.5em;
+    animation: pulse 1s infinite alternate;
+}
+.font-shi {
+    color: rgba(0, 0, 0, 0.391);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateX(100%);
+    animation: moveText 5s linear infinite;
+}
+
+.center-car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.button-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 20px;
+    margin: auto;
+}
+.buy{
+    margin-left: 5px;
+    width: 0px;
+    visibility: hidden;
+}
+.button-card:hover .buy {
+    visibility: visible;
+    width: 80%;
+}
+.button-card:hover{
+    background-color: rgb(35, 230, 100);
+    color: black;
+    border: none;
+    transition-property: width;
+    width: 100%;
+    transition-duration: .7s; 
+    font-weight: bold;
+}
+.botao{
+    position: relative;
+    right: 10px;
+    bottom: 1px;
+    padding: 5px;
+}
+.card-img-top{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.card-img-top:hover{
+    scale: 107%;
+    transition-duration: 0.2s;
+    transition-delay: .1s;
+}
+.card{
+    border-radius: 10px;
+}
+.card-hotdeals{
+    background-color: rgba(0, 0, 0, 0.162);
+}
+#deals{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.391);
+    font-size: 2em;
+    transition: 1s;
+    transform: translateX(100%);
+}
+.speakus{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.hidden {
+    display: none;
+}
+.btn-book{
+    margin: 0 10px;
+    padding: 10px;
+    width: 20px;
+}
+.btn-query-category{
+    border: none;
+    background-color: transparent;
+}
